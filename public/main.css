@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+
+}
+body {
+    background-image: url('/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(44, 179, 45);
+    font-size: 50px;
+    transition: all 1s ease;
+}
+
+h1:hover{
+    transform:scale(1.25);
+}
+
+h3{
+    color: white;
+}
+
+h3:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.logo {
+    height: 300px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.container {
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    height: 2em;
+}
+
+input {
+    font-size: 1em;
+    background-color: rgb(0, 40, 250);
+    color: white;
+    border: 0;
+    text-align: center;
+    -webkit-animation: fadein 3s;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+input:focus {
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(44, 179, 45);
+    outline: none;
+}
+
+input::placeholder{
+    color: hotpink;
+}
+
+input[type=submit] {
+    background-color: rgb(44, 179, 45);
+    color: white;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0px 0px 30px 0px rgba(44, 179, 45, 0.67);
+
+}
+
+/*Home Screen Stuff!!!*/
+
+.home-nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-small{
+    height: 8vh;
+}
+
+.log-out{
+    color: rgb(44, 179, 45);
+}
