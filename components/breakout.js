@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Pong extends React.Component {
+export class Breakout extends React.Component {
 
     constructor(props) {
         super(props);
@@ -8,15 +8,15 @@ export class Pong extends React.Component {
     componentWillMount() {
         const script = document.createElement("script");
 
-        script.src = "/pongscript.js";
+        script.src = "/breakoutscript.js";
         script.async = true;
 
         document.body.appendChild(script);
     }
     render(props) {
         return (
-            <div className='pong-div'>
-            <h1 style={{color: 'blue'}}>Pong</h1>
+            <div className='breakout-div'>
+            <h1 style={{color: 'blue'}}>Breakout</h1>
             <canvas id="game-canvas" width="800" height="600"></canvas>
             </div>
         )

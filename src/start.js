@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
 import {Form, Login as LoginComp,Registration as RegistrationComp,Welcome} from "../components/welcome"
 import { Home } from "../components/home";
-import { Pong } from '../components/pong'
+import { Pong } from '../components/pong';
+import { Breakout } from '../components/breakout';
+import { First } from '../components/first';
 
 function Login() {
     return <Form component={ LoginComp } />;
@@ -27,7 +29,8 @@ const appRouter = (
     <Router history={ browserHistory }>
         <Route path="/" component={ Home }>
         <Route path='/pong' component={ Pong }/>
-        <IndexRoute component={ Home } />
+        <Route path='/breakout' component={ Breakout }/>
+        <IndexRoute component={ First } />
   	    </Route>
     </Router>
 );

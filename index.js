@@ -6,7 +6,6 @@ const Fn = require("./hashAndCheck.js");
 const cookieSession = require('cookie-session');
 const cookieParser = require("cookie-parser");
 const uidSafe = require('uid-safe');
-const secrets = require('./secrets.json');
 const path = require('path');
 const fs = require('fs');
 const server = require('http').Server(app);

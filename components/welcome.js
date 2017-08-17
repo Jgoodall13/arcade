@@ -65,7 +65,7 @@ export function Login({ handleChange, handlePost}) {
               <input type="text" name="email" placeholder="Email" required onChange={handleChange}/>
               <input type="password" name="password" placeholder="Password" required onChange={handleChange}/>
               <input onClick={handlePost} type="submit" name="login-user" />
-              <Link to="register" style={{color: 'hotpink', fontSize: '20px', textDecoration: 'none'}}>Register</Link>
+              <Link to="register" style={{color: 'white', fontSize: '15px', paddingTop: '10px', textDecoration: 'none'}}>Register</Link>
 
         </div>
     );
@@ -80,7 +80,7 @@ export function Registration({ handleChange, handlePost}) {
           <input placeholder="Email" type="email" name="email" required onChange={handleChange}/>
           <input placeholder="Password" type="password" name="password" required onChange={handleChange}/>
           <input className='submit' onClick={handlePost} type="submit" name="register-user" />
-          <Link to="login" style={{color: 'hotpink', fontSize: '20px', textDecoration: 'none'}}>Login</Link>
+          <Link to="login" style={{color: 'white', fontSize: '15px', paddingTop: '10px', textDecoration: 'none'}}>Login</Link>
 
         </div>
     );
