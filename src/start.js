@@ -7,6 +7,7 @@ import { Home } from "../components/home";
 import { Pong } from '../components/pong';
 import { Breakout } from '../components/breakout';
 import { First } from '../components/first';
+import { Scores } from '../components/scores';
 
 function Login() {
     return <Form component={ LoginComp } />;
@@ -30,6 +31,7 @@ const appRouter = (
         <Route path="/" component={ Home }>
         <Route path='/pong' component={ Pong }/>
         <Route path='/breakout' component={ Breakout }/>
+        <Route path='/scores' component={ Scores }/>
         <IndexRoute component={ First } />
   	    </Route>
     </Router>

@@ -48,6 +48,7 @@ h3:hover{
 
 .logo {
     height: 300px;
+    margin-bottom: 20px;
 }
 
 .logo:hover{
@@ -126,10 +127,11 @@ input[type=submit]:hover{
 /*Home Screen Stuff!!!*/
 
 .home-nav{
-    width: 100%;
     height: 10vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-small{
@@ -140,8 +142,8 @@ input[type=submit]:hover{
 .games{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+    justify-content: space-around;
+    margin-top: 60px;
 }
 
 .pong-div{
@@ -180,6 +182,30 @@ input[type=submit]:hover{
     align-items: center;
 }
 
+.high-scores{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.high-score-box{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+ol{
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+li{
+    margin-top: 10px;
+}
+
 .log-out{
     color: black;
 }
@@ -187,5 +213,16 @@ input[type=submit]:hover{
 .log-out-div{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+}
+
+.log-out-div a{
+    margin: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.under{
+    text-align: center;
 }
