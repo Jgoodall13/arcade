@@ -22,6 +22,10 @@ h1:hover{
     transform:scale(1.25);
 }
 
+canvas:hover{
+    cursor: none;
+}
+
 .jacobs-first{
     margin-left: 40px;
     margin-top: 20px;
