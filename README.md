@@ -6,7 +6,7 @@ https://jacobsarcade.herokuapp.com/
 
 ## Overview
 
-This full stack project was my final project at SPICED Academy. We were allowed one week to come up with any javascript application of our choosing. I love games and very much enjoyed working with canvas so I decided to create a small 2d game site.
+This full stack project was my final project at SPICED Academy. We were allowed one week to come up with any javascript application of our choosing. I love games and very much enjoyed working with canvas so I decided to create a small 2D game site.
 
 ## Technology
 
@@ -31,4 +31,4 @@ Once the user clicks on the game of their choice, they are taken to new page whe
 
 ### Things I'm working on
 
---Creating a highscore chart with PostgreSQL that can track all players highest scores for the game of their choice.
+--Creating a highscore chart with PostgreSQL that can track player's highest scores for the game of their choice.
