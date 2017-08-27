@@ -5,7 +5,7 @@ import Axios from 'axios';
 export function Welcome(props) {
     return (
         <div className="container">
-            <h1>Jacobs Arcade</h1><br />
+            <h1>Jacob's Arcade</h1><br />
             <div className="image-box">
             <a href='/'><img className="logo" src="/images/joystick.svg" /></a>
             {props.children}
